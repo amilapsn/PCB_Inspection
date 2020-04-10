@@ -253,7 +253,7 @@ class Ui_mainWindow(object):
 
 
         self.imLoadbtn = QtGui.QPushButton(self.Plain)
-        self.imLoadbtn.setGeometry(QtCore.QRect(10, 660, 171, 34))
+        self.imLoadbtn.setGeometry(QtCore.QRect(10, 10, 171, 34))
         self.imLoadbtn.setAutoDefault(False)
         self.imLoadbtn.setDefault(False)
         self.imLoadbtn.setFlat(False)
@@ -263,7 +263,7 @@ class Ui_mainWindow(object):
         ################################################
 
         self.inspectbtn = QtGui.QPushButton(self.Plain)
-        self.inspectbtn.setGeometry(QtCore.QRect(10, 720, 171, 34))
+        self.inspectbtn.setGeometry(QtCore.QRect(10, 70, 171, 34))
         self.inspectbtn.setObjectName(_fromUtf8("inspectbtn"))
         #######################
         self.inspectbtn.clicked.connect(self.inspect_bare)
@@ -273,7 +273,7 @@ class Ui_mainWindow(object):
         self.Assembled = QtGui.QWidget()
         self.Assembled.setObjectName(_fromUtf8("Assembled"))
         self.imLoadbtn_2 = QtGui.QPushButton(self.Assembled)
-        self.imLoadbtn_2.setGeometry(QtCore.QRect(10, 660, 171, 34))
+        self.imLoadbtn_2.setGeometry(QtCore.QRect(10, 10, 171, 34))
         self.imLoadbtn_2.setAutoDefault(False)
         self.imLoadbtn_2.setDefault(False)
         self.imLoadbtn_2.setFlat(False)
@@ -282,7 +282,7 @@ class Ui_mainWindow(object):
         self.imLoadbtn_2.clicked.connect(self.select_assembledboard)
         ################################################
         self.inspectbtn_2 = QtGui.QPushButton(self.Assembled)
-        self.inspectbtn_2.setGeometry(QtCore.QRect(10, 720, 171, 34))
+        self.inspectbtn_2.setGeometry(QtCore.QRect(10, 70, 171, 34))
         self.inspectbtn_2.setObjectName(_fromUtf8("inspectbtn_2"))
         ##############################
         self.inspectbtn_2.clicked.connect(self.inspect_assemb)
@@ -293,7 +293,7 @@ class Ui_mainWindow(object):
         self.solderjoint = QtGui.QWidget()
         self.solderjoint.setObjectName(_fromUtf8("Solder Joint"))
         self.imLoadbtn_3 = QtGui.QPushButton(self.solderjoint)
-        self.imLoadbtn_3.setGeometry(QtCore.QRect(10, 660, 171, 34))
+        self.imLoadbtn_3.setGeometry(QtCore.QRect(10, 10, 171, 34))
         self.imLoadbtn_3.setAutoDefault(False)
         self.imLoadbtn_3.setDefault(False)
         self.imLoadbtn_3.setFlat(False)
@@ -302,7 +302,7 @@ class Ui_mainWindow(object):
         self.imLoadbtn_3.clicked.connect(self.select_solder)
         ################################################
         self.inspectbtn_3 = QtGui.QPushButton(self.solderjoint)
-        self.inspectbtn_3.setGeometry(QtCore.QRect(10, 720, 171, 34))
+        self.inspectbtn_3.setGeometry(QtCore.QRect(10, 70, 171, 34))
         self.inspectbtn_3.setObjectName(_fromUtf8("inspectbtn_3"))
         ##############################
         self.inspectbtn_3.clicked.connect(self.inspect_solder)
